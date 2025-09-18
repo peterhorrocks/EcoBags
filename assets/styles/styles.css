@@ -18,7 +18,7 @@ body {
 }
 
 /* HEADER SECTION */
-header {
+.header {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -59,7 +59,7 @@ header {
     justify-content: space-between;
     gap: 1%;
     width: 94%;
-    background: white;
+    /*background: white;*/
 }
 .nav-link a {
     font-size: medium;
@@ -105,55 +105,107 @@ header {
 /* INTRODUCTION SECTION */
 .introduction-section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 3%;
+    padding: 2%;
+    background-color: #a1dd70;
+    border-radius: 20px;
+}
+.intro-sub-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 70%;
+}
+.intro-sub-section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
 }
 
 /* PRODUCT SECTION */
-.product-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 1.5%;
-}
-.product-section-1 {
-    width: 55%;
-}
-.product-section-2 {
-    width: 35%;
-}
 .product-image {
     width: 100%;
-    height: 100%;
+    height: 85%;
     margin: 0;
     padding: 0;
 }
 .jute-bag-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 5%;
-    background-color:lightgray;
+    margin-top: 2%;
 }
-.cotton-bag-section {
+.jute-bag-section-1 {
+    width: 45%;
+    margin: 0;
+    padding: 0;
+}
+.jute-bag-section-2 {
+    width: 55%;
+    margin: 0;
+    padding: 0;
+    /*background-color:lightgray;*/
+}
+
+.paper-bag-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 2%;
+}
+.paper-bag-section-1 {
+    width: 55%;
+    margin: 0;
+    padding: 0;
+}
+.paper-bag-section-2 {
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    /*background-color:lightgray;*/
+}
+
+.jute-bags {
+    margin-top: 4%;
+    padding: 2%;
+    background-color: #f0f1c5;
+}
+.paper-bags {
+    margin-top: 4%;
+    padding: 2%;
+    background-color: #f0bb78;
+}
+.canvas-bags {
+    margin-top: 4%;
+    padding: 2%;
+    background-color: #fffdf6;
+}
+.cotton-bags {
+    margin-top: 4%;
+    padding: 2%;
+    background-color: #e1e9c9;
+}
+.future-bags {
+    margin-top: 4%;
+    padding: 2%;
+    background-color: #a0c878;
+}
+.product-section {
     margin-top: 5%;
 }
-.canvas-bag-section {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 5%;
-    background-color:lightgray;
-}
+
+
+
 
 .services-section {
     display: flex;
@@ -187,7 +239,7 @@ header {
     margin-top: 3%;
     padding: 2%;
     text-align: center;
-    background-color: lightgray;
+    background-color: #78c841;
     border-radius: 20px;
 }
 
@@ -249,7 +301,7 @@ header {
     flex-direction: column;
     margin-top: 3%;
     padding: 2%;
-    background-color: lightgray;
+    background-color: #006f40;
 }
 .footer-panel-section {
     display: flex;
@@ -289,9 +341,11 @@ h4 {
     padding: 10px; /* your icon's total width & height is 40px  */
     border-radius: 8px;
 }
+button {
+    height: 15%;
+}
 .button-container {
     display: flex;
-    align-items: left;
 }
 .button {
     font-size: small;
