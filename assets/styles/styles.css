@@ -17,6 +17,10 @@ body {
     /* border: solid; color: red; */
 }
 
+.jute-bag-mobile-section {
+    display: none;
+}
+
 /* HEADER SECTION */
 .header {
     width: 100%;
@@ -367,3 +371,67 @@ a {
     padding: 0;
 }
 
+
+
+@media (max-width: 678px) {
+
+    .jute-bag-section {
+        display: none;
+    }
+    .header-sub-section-1 {
+        display: none;
+    }
+    .header-sub-section-3 {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .image-main {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-sub-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .introduction-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .product-main {
+        width: 100%;
+        height: auto;
+    }
+    .jute-bag-mobile-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .jute-bag-section-1 {
+        width: 100%;
+    }
+    .jute-bag-section-2 {
+        width: 100%;
+    }
+    .paper-bag-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .paper-bag-section-1 {
+        width: 100%;
+    }
+    .paper-bag-section-2 {
+        width: 100%;
+    }
+    .services-sub-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-panel-section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
