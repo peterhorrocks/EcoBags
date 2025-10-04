@@ -118,7 +118,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     height: 100vh;
-    background: url(./assets/images/header1-cine.png);
+    background: url(../assets/images/header1-cine.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -611,3 +611,4 @@ a {
 
 
 }
+
