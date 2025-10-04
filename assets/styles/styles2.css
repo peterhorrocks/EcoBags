@@ -252,29 +252,29 @@ body {
 }
 
 .jute-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #f0f1c5;
+    /*background-color: #f0f1c5;*/
 }
 .paper-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #f0bb78;
+    /*background-color: #f0bb78;*/
 }
 .canvas-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #f2ead3;
+    /*background-color: #f2ead3;*/
 }
 .cotton-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #e1e9c9;
+    /*background-color: #e1e9c9;*/
 }
 .future-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #a0c878;
+    /*background-color: #a0c878;*/
 }
 
 /* SERVICES SECTION */
@@ -498,30 +498,30 @@ h4 {
     padding-bottom: 3%;
 }
 .button {
-    font-size: large;
+    font-size: medium;
     padding: 2%;
     color: white;
     text-decoration: none;
-    background: #59ac77;
-    border-radius: 5px;
+    background: #124170;
+    border: solid; border-color: black; border-width: thin;;
     cursor: pointer;
 }
 .button2 {
-    font-size: large;
+    font-size: medium;
     padding: 2%;
     color: white;
     text-decoration: none;
-    background: #59ac77;
-    border-radius: 5px;
+    background: #006f40;
+    border: solid; border-color: black; border-width: thin;;
     cursor: pointer;
 }
 .button3 {
-    font-size: large;
+    font-size: medium;
     padding: 2%;
     color: white;
     text-decoration: none;
-    background: #59ac77;
-    border-radius: 5px;
+    background: #124170;
+    border: solid; border-color: black; border-width: thin;;
     cursor: pointer;
 }
 /*.button:hover {

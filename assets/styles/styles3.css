@@ -42,8 +42,9 @@ body {
     flex-direction: row;
     justify-content: space-between;
     gap: 4%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #59ac77;
 }
 .header-sub-section-1 {
     width: 10%;
@@ -81,9 +82,9 @@ body {
 .navbar {
     display: flex;
     flex-direction: row;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 1%;
+    margin: 0;
+    padding: 1.25%;
+    background-color: #ffd5d5;
     /* border-top: solid; border-width: thin; */
 }
 .nav-items {
@@ -103,7 +104,7 @@ body {
 .nav-link a:hover {
     font-size: medium;
     font-weight: bold;
-    color: #ffb823;
+    color: #3a6f43;
     text-decoration: none;
     cursor: pointer;
     float: left;
@@ -170,7 +171,7 @@ body {
     margin-right: 5%;
     margin-top: 3%;
     padding: 2%;
-    background-color: #a0c878;
+    background-color: #fdaaaa;
     border-radius: 20px;
 }
 .intro-sub-section-1 {
@@ -252,29 +253,29 @@ body {
 }
 
 .jute-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #f0f1c5;
+    background-color: #59ac77;
 }
 .paper-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #f0bb78;
+    background-color: #ffd5d5;
 }
 .canvas-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #f2ead3;
+    background-color: #59ac77;
 }
 .cotton-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #e1e9c9;
+    background-color: #ffd5d5;
 }
 .future-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #a0c878;
+    background-color: #59ac77;
 }
 
 /* SERVICES SECTION */
@@ -316,7 +317,7 @@ body {
     margin-right: 5%;
     margin-top: 3%;
     padding: 2%;
-    background-color: #a0c878;
+    background-color: #fdaaaa;
     border-radius: 20px;
 }
 
@@ -393,7 +394,7 @@ body {
     margin-top: 3%;
     padding: 2%;
     color: white;
-    background-color: #006f40;
+    background-color: #59ac77;
 }
 .footer-panel-section {
     display: flex;
@@ -498,30 +499,30 @@ h4 {
     padding-bottom: 3%;
 }
 .button {
-    font-size: large;
+    font-size: medium;
     padding: 2%;
     color: white;
     text-decoration: none;
-    background: #59ac77;
-    border-radius: 5px;
+    background: #3a6f43;
+    border: solid; border-color: black; border-width: thin;;
     cursor: pointer;
 }
 .button2 {
-    font-size: large;
+    font-size: medium;
     padding: 2%;
     color: white;
     text-decoration: none;
-    background: #59ac77;
-    border-radius: 5px;
+    background: #3a6f43;
+    border: solid; border-color: black; border-width: thin;;
     cursor: pointer;
 }
 .button3 {
-    font-size: large;
+    font-size: medium;
     padding: 2%;
     color: white;
     text-decoration: none;
-    background: #59ac77;
-    border-radius: 5px;
+    background: #3a6f43;
+    border: solid; border-color: black; border-width: thin;;
     cursor: pointer;
 }
 /*.button:hover {
