@@ -93,6 +93,9 @@ body {
     width: 94%;
     /*background: white;*/
 }
+.nav-link {
+    padding: 1%;
+}
 .nav-link a {
     font-size: medium;
     color: black;
@@ -100,13 +103,22 @@ body {
     cursor: pointer;
     float: left;
 }
-.nav-link a:hover {
+.nav-link:hover {
     font-size: medium;
-    font-weight: bold;
-    color: #ffb823;
+    background-color: #41a67e;
     text-decoration: none;
     cursor: pointer;
     float: left;
+}
+.button-contact {
+    font-size: large;
+    padding: 2%;
+    color: black;
+    text-decoration: none;
+    background: #ffc107;
+    border: solid; border-color: black; border-width: thin;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* HERO SECTION */
@@ -126,10 +138,14 @@ body {
 }
 .hero-text-section-1 {
     width: 50%;
-    margin-top: 5%;;
+    margin-top: 3%;;
     margin-left: 10%;
     font-size: 125%;
-    color: #006f40;
+    color:#3e0703;
+}
+.hero-text-section-1 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400%;
 }
 .hero-text-section-2 {
     width: 50%;
@@ -188,7 +204,7 @@ body {
     width: 25%;
 }
 .image-intro {
-    width: 90%;
+    width: 70%;
     clip-path: circle(50%);
 }
 
@@ -254,29 +270,29 @@ body {
 }
 
 .jute-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #f0f1c5;
+    /*background-color: #f0f1c5;*/
 }
 .paper-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #f0bb78;
+    /*background-color: #f0bb78;*/
 }
 .canvas-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #f2ead3;
+    /*background-color: #f2ead3;*/
 }
 .cotton-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #e1e9c9;
+    /*background-color: #e1e9c9;*/
 }
 .future-bags {
-    margin-top: 4%;
+    margin-top: 0;
     padding: 2%;
-    background-color: #a0c878;
+    /*background-color: #a0c878;*/
 }
 
 /* SERVICES SECTION */
@@ -394,8 +410,8 @@ body {
     flex-direction: column;
     margin-top: 3%;
     padding: 2%;
-    color: white;
-    background-color: #006f40;
+    color: black;
+    background-color: #41a67e;
 }
 .footer-panel-section {
     display: flex;
@@ -504,32 +520,23 @@ h4 {
     padding: 2%;
     color: white;
     text-decoration: none;
-    background: #59ac77;
+    background: #006f40;
     border-radius: 5px;
     cursor: pointer;
 }
-.button2 {
+.button:hover {
+    background-color: #41a67e;
+}
+.button-contact {
     font-size: large;
     padding: 2%;
-    color: white;
+    color: black;
     text-decoration: none;
-    background: #59ac77;
+    background: #ffc107;
+    border: solid; border-color: black; border-width: thin;
     border-radius: 5px;
     cursor: pointer;
 }
-.button3 {
-    font-size: large;
-    padding: 2%;
-    color: white;
-    text-decoration: none;
-    background: #59ac77;
-    border-radius: 5px;
-    cursor: pointer;
-}
-/*.button:hover {
-    color: white;
-    background: brown;
-}*/
 .button-hero {
     font-size: large;
     padding: 3%;

@@ -188,7 +188,8 @@ body {
     width: 25%;
 }
 .image-intro {
-    width: 70%;
+    width: 90%;
+    clip-path: circle(50%);
 }
 
 /* ICON SECTION */
@@ -253,29 +254,29 @@ body {
 }
 
 .jute-bags {
-    margin-top: 0;
+    margin-top: 4%;
     padding: 2%;
-    /*background-color: #f0f1c5;*/
+    background-color: #f0f1c5;
 }
 .paper-bags {
-    margin-top: 0;
+    margin-top: 4%;
     padding: 2%;
-    /*background-color: #f0bb78;*/
+    background-color: #f0bb78;
 }
 .canvas-bags {
-    margin-top: 0;
+    margin-top: 4%;
     padding: 2%;
-    /*background-color: #f2ead3;*/
+    background-color: #f2ead3;
 }
 .cotton-bags {
-    margin-top: 0;
+    margin-top: 4%;
     padding: 2%;
-    /*background-color: #e1e9c9;*/
+    background-color: #e1e9c9;
 }
 .future-bags {
-    margin-top: 0;
+    margin-top: 4%;
     padding: 2%;
-    /*background-color: #a0c878;*/
+    background-color: #a0c878;
 }
 
 /* SERVICES SECTION */
@@ -499,30 +500,30 @@ h4 {
     padding-bottom: 3%;
 }
 .button {
-    font-size: medium;
+    font-size: large;
     padding: 2%;
     color: white;
     text-decoration: none;
-    background: #124170;
-    border: solid; border-color: black; border-width: thin;;
+    background: #59ac77;
+    border-radius: 5px;
     cursor: pointer;
 }
 .button2 {
-    font-size: medium;
+    font-size: large;
     padding: 2%;
     color: white;
     text-decoration: none;
-    background: #006f40;
-    border: solid; border-color: black; border-width: thin;;
+    background: #59ac77;
+    border-radius: 5px;
     cursor: pointer;
 }
 .button3 {
-    font-size: medium;
+    font-size: large;
     padding: 2%;
     color: white;
     text-decoration: none;
-    background: #124170;
-    border: solid; border-color: black; border-width: thin;;
+    background: #59ac77;
+    border-radius: 5px;
     cursor: pointer;
 }
 /*.button:hover {
