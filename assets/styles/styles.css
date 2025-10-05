@@ -188,7 +188,8 @@ body {
     width: 25%;
 }
 .image-intro {
-    width: 70%;
+    width: 90%;
+    clip-path: circle(50%);
 }
 
 /* ICON SECTION */
