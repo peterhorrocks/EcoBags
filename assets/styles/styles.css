@@ -438,7 +438,8 @@ body {
     margin-right: 0;
     height: 50vh;
     color: white;
-    background: url(/assets/images/header1-narrow.jpg);
+    /* background: url(/assets/images/header1-narrow.jpg);*/
+    background: url(../images/header1-narrow.jpg); /* GITHUB */
     background-repeat: no-repeat;
     background-size: cover;
 }
