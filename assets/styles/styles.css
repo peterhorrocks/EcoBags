@@ -427,6 +427,7 @@ body {
 
 /* SUB PAGES */
 
+/* Hero Section */
 .sub-page-hero-section {
     display: flex;
     flex-direction: row;
@@ -435,27 +436,180 @@ body {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    height: 60vh;
+    height: 50vh;
     color: white;
     background: url(/assets/images/header1-narrow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Introduction Section */
 .sub-page-intro {
-    margin-left: 5%;
-    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: 8%;
+    margin-right: 8%;
     margin-top: 1%;
+    padding: 1%;
+}
+.sub-page-intro-image-1 {
+    float: right;
+    width: 30%;
     padding: 2%;
 }
-.flex-row-section {
+/* Sub Intro Section */
+.sub-page-intro-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3%;
+    width: auto;
+    margin-top: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.sub-page-intro-image-2 {
+    width: 70%;
+    padding: 2%;
+}
+
+
+/* SUB PAGES - DYNAMIC PRODUCTS*/
+
+.dynamic-page-section {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1%;
+    padding: 1%;
+}
+.dynamic-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3%;
+    width: auto;
+    margin-top: 1%;
+    padding: 1%;
+}
+.dynamic-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    padding: 0;
+    text-align: center;
+    border: solid; border-width: thin;
+}
+.dynamic-text {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 4%;
+    border-top: solid; border-width: thin;
+}
+.dynamic-image {
+    width: 60%;
+}
+
+/* SUB PAGES - BESPOKE AND CONTACT */
+
+.bespoke-supp-section {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     gap: 4%;
     width: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    background-color: #a0c878;
+    border-radius: 20px;
 }
+.bespoke-supp-section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding-top: 3%;
+}
+.bespoke-supp-image {
+    width: 55%;
+}
+
+.contact-supp-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5% 10% 5% 10%;
+}
+
+.section {
+    width: auto;
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+/* PRIVACY AND TERMS MODAL SECTION */
+/* Display the Privacy Policy and Terms of Use in a modal */
+
+/* Modal background */
+.legal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+/* Modal Content/Box */
+.legal-contents {
+    background-color: #fefefe;
+    margin: 0 auto 15% auto; /* 0% from the top, 15% from the bottom and centered */
+    padding: 2%;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+/* Modal Close Button (x) */
+.close-legal {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close-legal:hover,
+.close-legal:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.h-sub {
+    font-family: Roboto, sans-serif;
+}
+
+
+
+
 .item-section {
     display: flex;
     justify-content: center;
@@ -465,9 +619,20 @@ body {
     padding: 2%;
     border: solid; border-width: thin;
 }
-.section {
+.flex-column-section {
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.flex-row-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 4%;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
